@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>personal portfolio</title>
+        <link rel="stylesheet" href="project.css">
+    </head>
+    <body>
+        <div class="hero">
+            <nav>
+                <img src="" class="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            </nav>
+            <div class="detel">
+                <h1>I'm Sarthak <span> Panda </span></h1>
+                <p> This is my official portfolio website to shows all
+                    <br> Details and work experience web development
+                </p>
+            <a href="#">DOWNLOAD CV</a>
+            </div>
+            <div class="images">
+                <img src="images/WhatsApp Image 2024-04-15 at 11.37.33_6d8fa3ca.jpg" class="shape">
+                <img src="images/sarthak profile.jpg" class="boy">
+            </div>
+            </div>
+        </div>
+        <section id="about">
+            <div class="container">
+                <h2> <center>About Me</center></h2>
+                <p><center>Experienced web developer with passion for creating attractive and interactive websites meeting customer needs and exceeding expectations. <br>Well-versed  in developing custom WordPress themes and plugins. Excels in HTML, CSS, JavaScript and PHP</center></p>
+            </div>
+        </section>
+    
+        <section id="projects">
+            <div class="container">
+                <h2><center>Projects</center></h2>
+                <!-- Add your projects here -->
+                <ul>
+                    <li>
+                     <center>Created a calculator using Html & Css.</center> 
+                    </li>
+                    <li>
+                        <center> Created a snake game using Java.</center> 
+                    </li>
+                </ul>
+            </div>
+        </section>
+    
+        <section id="contact">
+            <div class="container">
+                <h2><center>Contact Me</center></h2>
+                <p><center>Email: sarthakpanda4558@gmail.com</center></p>
+                <p><center>Phone: 7979986969</center></p>
+            </div>
+        </section>
+    
+        <footer>
+            <div class="container">
+                <p><center>&copy; 2024 Sarthak Panda. All rights reserved.</center></p>
+            </div>
+        </footer>
+    </body>
+  </body>
+</html>
+
+
+
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height:100vh;
+    background: #eff4fd;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:red;
+}
+.detel{
+    margin-left:8%;
+    margin-top: 13%;
+}
+.detel h1{
+    font-size: 50px;
+    color:#212121;
+    margin-bottom: 20px;
+}
+span{
+    color:orange;
+}
+.detel p{
+    color:#555;
+    line-height: 22px;
+}
+.detel a{
+    background:#212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color:#fff;
+    display:inline-block;
+    margin: 30px 0;
+    border-radius:5px;
+}
+.images{
+    width: 45%;
+    height:80%;
+    position: absolute;
+    bottom: 0;
+    right:100px;
+}
+.images img{
+    height:100%;
+    position: absolute;
+    left:50%;
+    bottom:0;
+    transform:translateX(-50%);
+    transition: bottom 1s,left 1s;
+}
+.images:hover .shape{
+    bottom:40px;
+}
+.images:hover .boy{
+    left:45%;
+}
+
+
+header {
+    background-color: #212121;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #212121;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
